@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Web Design</title>
+    <link rel="stylesheet" href="cssfile.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+	<body>
+
+<!-- Menyja -->
+	<nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo"><img src="../view/img/logo.png" alt=""></div>
+        <ul class="links">
+            <li><a href="home.php">HOME</a></li>
+            <li><a href="services.php">SERVICES</a></li>
+            <li><a href="projects.php">PROJECTS</a></li>
+			<li><a href="products.php">PRODUCTS</a></li>
+            <li><a href="register.php">SIGN UP</a></li>
+			<li><a href="login.php">LOGIN</a></li>
+
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+
+	<!-- Slideri -->
+    <div class="slider">
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>Web Design</h1>
+				<p>We offer<br>Proffesional & Responsive Design </p>
+			</div>
+			<img src="../view/img/img1.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>App Development</h1>
+				<p>Build Mobile Applications<br>With Infinite Possibilities</p>
+			</div>
+			<img src="../view/img/img2.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>Desktop Applications</h1>
+				<p>Desktop apps<br>Are sleek with responsive design</p>
+			</div>
+			<img src="../view/img/img4.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>Domain & Hosting</h1>
+				<p>Fast & Secure<br>Unmetered Website Space</p>
+			</div>
+			<img src="../view/img/img5.jpg" style="width: 100%; height: 100%;">
+		</div>
+		
+		<!-- buttonat per ndrrimin  e slideve -->
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			
+		</div>
+	</div>
+<br>
+<br>
+
+	<!--Kodi per sherbimet-->
+	<style>body{
+		background-image: url(../view/img/img2.jpg);
+	} 
+	</style>
+
+	<div class="container">
+		<div class="details">
+		  <h2 style="color: white;">Shërbimet</h2>
+		  <p style="color: white;" >Disa nga Shërbimet tona: </p>
+		  <br>
+		</div>
+		<div class="main-box">
+		  <div class="box box-grey">
+			<div class="icon">
+			  <i class="fas fa-desktop"></i>
+			</div>
+			<h2>Web Design</h2>
+			<hr>
+			<p>All websites are built using responsive design techniques to make for a great experience.</p>
+			<a href="#">Read More</a>
+		  </div>
+  
+		  <div class="box box-red">
+			<div class="icon">
+			  <i class="fas fa-globe"></i>
+			</div>
+			<h2>Domain & Hosting</h2>
+			<hr>
+			<p>We offer Fast and Secure Domain, 
+				Unmetered Website Space, 
+				Free SSL </p>
+			<a href="#" class="white-border">Read More</a>
+		  </div>
+		  
+		  <div class="box box-grey">
+			<div class="icon">
+			  <i class="fas fa-search"></i>
+			</div>
+			<h2>SEO</h2>
+			<hr>
+			<p>Search engine optimization is the process of helping your customers connect with your business online.</p>
+			<a href="#">Read More</a>
+		  </div>
+  
+		</div>
+  
+	  </div>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+
+	  <!--Projektet tona-->
+	  <div class="details">
+		<h2 style="color: white;">Projektet tona </h2>
+		<br>
+		<p style="color: white;">Disa nga Projektet tona:</p>
+		<br>
+	  </div>
+	  <div class="responsive">
+		<div class="gallery">
+			<a target="_blank" href="https://services-fix.de/">
+			<img src="../view/img/projekt1.jpg" width="150" height="400">
+			</a>
+
+		</div>
+	  </div>
+	  
+	  
+	  <div class="responsive">
+		<div class="gallery">
+		  <a target="_blank" href="https://xn--al-bau-mnchen-3ob.de/">
+			<img src="../view/img/projekt2.jpg"  width="600" height="400">
+		  </a>
+		</div>
+	  </div>
+	  
+	  <div class="responsive">
+		<div class="gallery">
+		  <a target="_blank" href="https://malisurprise.de/">
+			<img src="../view/img/projekt3.jpg" width="600" height="400">
+		  </a>
+		</div>
+	  </div>
+	  
+	  <div class="responsive">
+		<div class="gallery">
+		  <a target="_blank" href="https://bsbau1.de/">
+			<img src="../view/img/projekt4.jpg" width="600" height="400">
+		  </a>
+		</div>
+	  </div>
+	  
+	  <div class="clearfix"></div>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+	  <section class="footer">
+		<div class="social">
+		  <a href="#"><i class="fab fa-instagram"></i></a>
+		  <a href="#"><i class="fab fa-youtube"></i></a>
+		  <a href="#"><i class="fab fa-twitter"></i></a>
+		  <a href="#"><i class="fab fa-facebook-f"></i></a>
+		</div>
+  
+		<ul class="list">
+		  <li>
+			<a href="home.php">Home</a>
+		  </li>
+		  <li>
+			<a href="services.php">Services</a>
+		  </li>
+		  <li>
+			<a href="projects.php">Projects</a>
+		  </li>
+		  <li>
+			<a href="contact.php">Contact</a>
+		  </li>
+		</ul>
+		<p class="copyright">All right reserved @2021 E-Web Design</p>
+	  </section>
+
+
+	  
+
+	<script src="jsfile.js"></script>
+</body>
+</html>
+
+
